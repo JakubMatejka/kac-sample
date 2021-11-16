@@ -4,20 +4,20 @@
     "input": {
       "tables": [
         {
-          "source": "in.c-keboola-ex-aws-s3-7241111.cities",
+          "columns": [],
           "destination": "cities",
+          "source": "in.c-keboola-ex-aws-s3-7241111.cities",
           "where_column": "",
-          "where_values": [],
           "where_operator": "eq",
-          "columns": []
+          "where_values": []
         },
         {
-          "source": "in.c-keboola-ex-google-drive-7241051.addresses",
+          "columns": [],
           "destination": "addresses",
+          "source": "in.c-keboola-ex-google-drive-7241051.addresses",
           "where_column": "",
-          "where_values": [],
           "where_operator": "eq",
-          "columns": []
+          "where_values": []
         }
       ]
     },
