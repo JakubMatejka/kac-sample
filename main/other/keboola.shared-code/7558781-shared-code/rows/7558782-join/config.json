@@ -1,0 +1,5 @@
+{
+  "code_content": [
+    "CREATE TABLE \"address_city\" AS\nSELECT \"a\".\"name\", \"a\".\"surname\", \"c\".\"LatD\", \"c\".\"LonD\"\nFROM \"addresses\" \"a\"\nLEFT JOIN \"cities\" \"c\" ON (\"a\".\"city\" = \"c\".\"City\")\nWHERE \"a\".\"state\"={{state}}"
+  ]
+}

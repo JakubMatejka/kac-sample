@@ -1,5 +1,5 @@
 {
   "api": {
-      "baseUrl": "https://wikipedia.org"
+    "baseUrl": "https://wikipedia.org"
   }
 }

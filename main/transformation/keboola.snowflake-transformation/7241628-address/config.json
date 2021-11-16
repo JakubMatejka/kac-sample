@@ -30,5 +30,10 @@
       ]
     }
   },
-  "shared_code_path": "_shared/keboola.snowflake-transformation"
+  "variables_id": "7242844",
+  "variables_values_id": "7242845",
+  "shared_code_id": "7558781",
+  "shared_code_row_ids": [
+    "7558782"
+  ]
 }
