@@ -2,7 +2,7 @@
   "name": "keboola.ex-aws-s3-7241111",
   "task": {
     "mode": "run",
-    "configPath": "extractor/keboola.ex-aws-s3/7241111-my-aws-s-3-data-source"
+    "configPath": "extractor/keboola.ex-aws-s3/my-aws-s-3-data-source"
   },
   "continueOnFailure": false,
   "enabled": true

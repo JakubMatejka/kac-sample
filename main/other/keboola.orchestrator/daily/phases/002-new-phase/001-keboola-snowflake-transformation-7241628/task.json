@@ -2,7 +2,7 @@
   "name": "keboola.snowflake-transformation-7241628",
   "task": {
     "mode": "run",
-    "configPath": "transformation/keboola.snowflake-transformation/7241628-address-completion"
+    "configPath": "transformation/keboola.snowflake-transformation/address-completion"
   },
   "continueOnFailure": false,
   "enabled": true

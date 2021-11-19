@@ -6,14 +6,14 @@
   },
   "sortBy": "id",
   "naming": {
-    "branch": "{branch_id}-{branch_name}",
-    "config": "{component_type}/{component_id}/{config_id}-{config_name}",
-    "configRow": "rows/{config_row_id}-{config_row_name}",
-    "schedulerConfig": "schedules/{config_id}-{config_name}",
+    "branch": "{branch_name}",
+    "config": "{component_type}/{component_id}/{config_name}",
+    "configRow": "rows/{config_row_name}",
+    "schedulerConfig": "schedules/{config_name}",
     "sharedCodeConfig": "_shared/{target_component_id}",
-    "sharedCodeConfigRow": "codes/{config_row_id}-{config_row_name}",
+    "sharedCodeConfigRow": "codes/{config_row_name}",
     "variablesConfig": "variables",
-    "variablesValuesRow": "values/{config_row_id}-{config_row_name}"
+    "variablesValuesRow": "values/{config_row_name}"
   },
   "allowedBranches": [
     "__main__"
@@ -32,22 +32,22 @@
       "branchId": 4908,
       "componentId": "ex-generic-v2",
       "id": "7528264",
-      "path": "extractor/ex-generic-v2/7528264-wiki",
+      "path": "extractor/ex-generic-v2/wiki",
       "rows": []
     },
     {
       "branchId": 4908,
       "componentId": "keboola.ex-aws-s3",
       "id": "7241111",
-      "path": "extractor/keboola.ex-aws-s3/7241111-my-aws-s-3-data-source",
+      "path": "extractor/keboola.ex-aws-s3/my-aws-s-3-data-source",
       "rows": [
         {
           "id": "7241227",
-          "path": "rows/7241227-jakubm-share-cities-2"
+          "path": "rows/jakubm-share-cities-2"
         },
         {
           "id": "7561306",
-          "path": "rows/7561306-jakubm-share-cities-2"
+          "path": "rows/jakubm-share-cities-2-001"
         }
       ]
     },
@@ -55,21 +55,21 @@
       "branchId": 4908,
       "componentId": "keboola.ex-google-drive",
       "id": "7241051",
-      "path": "extractor/keboola.ex-google-drive/7241051-my-google-drive-data-source",
+      "path": "extractor/keboola.ex-google-drive/my-google-drive-data-source",
       "rows": []
     },
     {
       "branchId": 4908,
       "componentId": "keboola.orchestrator",
       "id": "7243915",
-      "path": "other/keboola.orchestrator/7243915-daily",
+      "path": "other/keboola.orchestrator/daily",
       "rows": []
     },
     {
       "branchId": 4908,
       "componentId": "keboola.sandboxes",
       "id": "7241673",
-      "path": "other/keboola.sandboxes/7241673-address",
+      "path": "other/keboola.sandboxes/address",
       "rows": []
     },
     {
@@ -80,7 +80,7 @@
       "rows": [
         {
           "id": "7558782",
-          "path": "codes/7558782-join"
+          "path": "codes/join"
         }
       ]
     },
@@ -88,7 +88,7 @@
       "branchId": 4908,
       "componentId": "keboola.snowflake-transformation",
       "id": "7241628",
-      "path": "transformation/keboola.snowflake-transformation/7241628-address-completion",
+      "path": "transformation/keboola.snowflake-transformation/address-completion",
       "rows": []
     },
     {
@@ -106,7 +106,7 @@
       "rows": [
         {
           "id": "7242845",
-          "path": "values/7242845-default",
+          "path": "values/default",
           "relations": [
             {
               "type": "variablesValuesFor"

@@ -2,7 +2,7 @@
   "name": "keboola.ex-google-drive-7241051",
   "task": {
     "mode": "run",
-    "configPath": "extractor/keboola.ex-google-drive/7241051-my-google-drive-data-source"
+    "configPath": "extractor/keboola.ex-google-drive/my-google-drive-data-source"
   },
   "continueOnFailure": false,
   "enabled": true
