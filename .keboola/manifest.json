@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "project": {
     "id": 4516,
     "apiHost": "connection.north-europe.azure.keboola.com"
@@ -8,7 +8,12 @@
   "naming": {
     "branch": "{branch_id}-{branch_name}",
     "config": "{component_type}/{component_id}/{config_id}-{config_name}",
-    "configRow": "rows/{config_row_id}-{config_row_name}"
+    "configRow": "rows/{config_row_id}-{config_row_name}",
+    "schedulerConfig": "schedules/{config_id}-{config_name}",
+    "sharedCodeConfig": "_shared/{target_component_id}",
+    "sharedCodeConfigRow": "codes/{config_row_id}-{config_row_name}",
+    "variablesConfig": "variables",
+    "variablesValuesRow": "values/{config_row_id}-{config_row_name}"
   },
   "allowedBranches": [
     "__main__"
@@ -71,11 +76,11 @@
       "branchId": 4908,
       "componentId": "keboola.shared-code",
       "id": "7558781",
-      "path": "other/keboola.shared-code/7558781-shared-code",
+      "path": "_shared/keboola.snowflake-transformation",
       "rows": [
         {
           "id": "7558782",
-          "path": "rows/7558782-join"
+          "path": "codes/7558782-join"
         }
       ]
     },
@@ -90,11 +95,23 @@
       "branchId": 4908,
       "componentId": "keboola.variables",
       "id": "7242844",
-      "path": "other/keboola.variables/7242844-variables-definition-for-keboola-snowflake-transformation-7241628",
+      "path": "variables",
+      "relations": [
+        {
+          "componentId": "keboola.snowflake-transformation",
+          "configId": "7241628",
+          "type": "variablesFor"
+        }
+      ],
       "rows": [
         {
           "id": "7242845",
-          "path": "rows/7242845-default-values"
+          "path": "values/7242845-default",
+          "relations": [
+            {
+              "type": "variablesValuesFor"
+            }
+          ]
         }
       ]
     }

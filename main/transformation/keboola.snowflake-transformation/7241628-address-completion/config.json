@@ -4,20 +4,20 @@
     "input": {
       "tables": [
         {
-          "columns": [],
-          "destination": "cities",
           "source": "in.c-keboola-ex-aws-s3-7241111.cities",
+          "destination": "cities",
           "where_column": "",
+          "where_values": [],
           "where_operator": "eq",
-          "where_values": []
+          "columns": []
         },
         {
-          "columns": [],
-          "destination": "addresses",
           "source": "in.c-keboola-ex-google-drive-7241051.addresses",
+          "destination": "addresses",
           "where_column": "",
+          "where_values": [],
           "where_operator": "eq",
-          "where_values": []
+          "columns": []
         }
       ]
     },
@@ -30,10 +30,5 @@
       ]
     }
   },
-  "variables_id": "7242844",
-  "variables_values_id": "7242845",
-  "shared_code_id": "7558781",
-  "shared_code_row_ids": [
-    "7558782"
-  ]
+  "shared_code_path": "_shared/keboola.snowflake-transformation"
 }
