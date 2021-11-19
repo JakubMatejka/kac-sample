@@ -1,1 +1,1 @@
-
+sample of wikipedia extraction
